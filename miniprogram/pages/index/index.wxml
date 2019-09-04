@@ -47,5 +47,11 @@
     </navigator>
   </view>
 
+  <view class="uploader">
+    <navigator url="../infoCollection/infoCollection" open-type="navigate" class="uploader-text">
+      <text>显示收集的信息</text>
+    </navigator>
+  </view>
+
 
 </view>
