@@ -5,6 +5,7 @@ Page({
    * Page initial data
    */
   data: {
+    name:'wechat'
 
   },
 
@@ -62,5 +63,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  changeName:function(e){
+    this.setData({
+      name:'mina'
+    })
   }
 })

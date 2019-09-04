@@ -1,5 +1,6 @@
 <!--miniprogram/pages/infoCollection/infoCollection.wxml-->
 <view>
-<text>miniprogram/pages/infoCollection/infoCollection.wxml</text>
+<text>{{name}}</text>
+<button bindtap="changeName">Click me! </button>
 </view>
 
